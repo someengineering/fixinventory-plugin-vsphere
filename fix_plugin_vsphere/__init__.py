@@ -1,9 +1,9 @@
 from datetime import datetime
 
-from resotolib.logger import log
-from resotolib.config import Config
-from resotolib.baseplugin import BaseCollectorPlugin
-from resotolib.baseresources import InstanceStatus
+from fixlib.logger import log
+from fixlib.config import Config
+from fixlib.baseplugin import BaseCollectorPlugin
+from fixlib.baseresources import InstanceStatus
 
 from .vsphere_client import get_vsphere_client
 from .resources import (

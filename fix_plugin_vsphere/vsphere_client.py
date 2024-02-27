@@ -1,4 +1,4 @@
-from resotolib.config import Config
+from fixlib.config import Config
 
 from pyVmomi import vim, vmodl
 from pyVim.connect import SmartConnect

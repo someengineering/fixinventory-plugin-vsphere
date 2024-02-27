@@ -1,6 +1,6 @@
-from resotolib.graph import Graph
-import resotolib.logger
-from resotolib.baseresources import (
+from fixlib.graph import Graph
+import fixlib.logger
+from fixlib.baseresources import (
     BaseResource,
     BaseAccount,
     BaseRegion,
@@ -12,7 +12,7 @@ from typing import ClassVar
 from pyVmomi import vim
 from .vsphere_client import get_vsphere_client, VSphereClient
 
-log = resotolib.logger.getLogger("resoto." + __name__)
+log = fixlib.logger.getLogger("fix." + __name__)
 
 
 @define(eq=False, slots=False)
