@@ -15,8 +15,6 @@ attrs==24.2.0
     #   fixinventorylib
 autocommand==2.2.2
     # via jaraco-text
-backports-tarfile==1.2.0
-    # via jaraco-context
 brotli==1.1.0
     # via aiohttp
 cattrs==24.1.2

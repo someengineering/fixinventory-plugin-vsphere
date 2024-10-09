@@ -31,6 +31,24 @@ dependencies = [
     "pyvmomi",
 ]
 
+[project.optional-dependencies]
+test = [
+    "black",
+    "coverage",
+    "flake8",
+    "hypothesis",
+    "mypy",
+    "pep8-naming",
+    "pylint",
+    "pytest",
+    "pytest-asyncio",
+    "pytest-cov",
+    "pytest-runner",
+    "pytest-mock",
+    "tox",
+    "wheel",
+]
+
 [project.entry-points."fix.plugins"]
 vsphere = "fix_plugin_vsphere:VSphereCollectorPlugin"
 
