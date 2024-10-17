@@ -1,7 +1,7 @@
 [project]
 name = "fixinventory-plugin-vsphere"
-description = "Fix VSphere Collector Plugin"
-version = "4.1.1"
+description = "Fix vSphere Collector Plugin"
+version = "4.1.2"
 authors = [{name="Some Engineering Inc."}]
 license = {file="LICENSE"}
 requires-python = ">=3.12"
@@ -54,7 +54,7 @@ vsphere = "fix_plugin_vsphere:VSphereCollectorPlugin"
 
 [project.urls]
 Documentation = "https://inventory.fix.security"
-Source = "https://github.com/someengineering/fix/tree/main/plugins/vsphere"
+Source = "https://github.com/someengineering/fixinventory-plugin-vsphere"
 
 [build-system]
 requires = ["setuptools>=67.8.0", "wheel>=0.40.0", "build>=0.10.0"]
